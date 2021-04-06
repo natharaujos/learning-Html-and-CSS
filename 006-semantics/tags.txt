@@ -1,0 +1,19 @@
+PT-BR
+
+Basicamente, html5 é focado no significado, e não na forma.
+Por isso algumas tags estão se tornando obssoletas, como:
+-<font>
+-<marquee
+-<u>
+
+Para se preocupar com as formas do site, é usado o Css3.
+
+EN
+
+Basically, html5 is focused on meaning, not form.
+So some tags are becoming obsolete, such as:
+-<font>
+-<marquee
+-<u>
+
+To be concerned with the forms of the site, Css3 is used.
