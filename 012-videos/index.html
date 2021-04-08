@@ -9,12 +9,19 @@
 <body>
     <h1>Inserindo vídeoos hospedados localmente</h1>
     <p>Este vídeo está hospedado no meu próprio servidor</p>
-<video width="500" poster="images/my-picture.jpg" controls>
-    <source src="video/my-video.mp4" type="video/mp4">
-    <source src="video/my-video.mkv" type="video/mkv">
-    <source src="video/my-video.webm" type="video/webm">
-    <source src="video/my-video.ogv" type="video/ogv">
-    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
-</video>
+    <video width="500" poster="images/my-picture.jpg" controls loop>
+        <source src="video/my-video.mp4" type="video/mp4">
+        <source src="video/my-video.mkv" type="video/mkv">
+        <source src="video/my-video.webm" type="video/webm">
+        <source src="video/my-video.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Adicionado vídeos do youtube</h1>
+    <!--Vídeos do youtube só aceitando hospedagem pública-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/h_k1czVo4VU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <h1>Adicionando vídeos do vimeo</h1>
+    <!--Para hospedagem privada, usar o vimeo.com-->
+    <iframe src="https://player.vimeo.com/video/191894507" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
