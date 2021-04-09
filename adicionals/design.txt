@@ -1,0 +1,7 @@
+site para montar paleta de cores:
+adobe color
+palleton
+coolors
+
+extensões:
+colorZilla
