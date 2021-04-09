@@ -1,7 +1,14 @@
-site para montar paleta de cores:
-adobe color
-palleton
-coolors
+- site para montar paleta de cores:
+	*adobe color
+	*palleton
+	*coolors
 
-extensões:
-colorZilla
+- extensões:
+	*colorZilla
+	*fontsNinja
+
+- safe font combinations:
+	*w3schools.com
+
+- sites para identificar fontes dentro de 	*imagens
+
