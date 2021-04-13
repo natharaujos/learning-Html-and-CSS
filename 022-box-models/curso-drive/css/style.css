@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#noticia {
+    background-color: green;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+h2 {
+    border: 1px solid red;
+    margin: 0px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs e Span</title>
+    <style>
+        #navbar {
+            background-color: darkgrey;
+        }
+
+        #conteudo {
+            background-color: black;
+            color: darkgray;
+        }
+
+        #rodape {
+            background-color: black;
+            text-align: center;
+            color: blueviolet;
+        }
+
+        #assinatura {
+            background-color: blueviolet;
+        }
+
+        .produto {
+            background-color: aqua;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Exemplo de Div</h2>
+    
+    <div id="navbar">
+        <img src="images/logo-symfony.png" alt="logo-symfony" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+
+    <div id="rodape">
+        Todos os direitos reservados
+    </div>
+
+    <h2>Exemplo de Span</h2>
+    
+    <span id="assinatura">
+        Nathan
+    </span>
+</body>
+</html>
