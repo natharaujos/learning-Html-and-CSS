@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Elementos flutuantes na prática</title>
+    <style>
+        body {
+            background: #f4f4f4;
+        }
+
+        #principal {
+            width: 920px;
+        }
+
+        .noticia {
+            background: gray;
+            padding: 5px;
+            width: 280px;
+            margin: 8px;
+            float: left;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .imagem-galeria {
+            background: white;
+            width: 265px;
+            height: 280px;
+            padding: 5px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="principal">
+        <div>
+            <div class="noticia">
+                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur officia quae, necessitatibus mollitia totam laboriosam saepe tempora similique animi a unde obcaecati vitae molestiae temporibus distinctio, nesciunt, doloremque ut hic!</p>
+                <a href="">Veja Mais</a>
+            </div>
+            <div class="noticia">
+                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur officia quae, necessitatibus mollitia totam laboriosam saepe tempora similique animi a unde obcaecati vitae molestiae temporibus distinctio, nesciunt, doloremque ut hic!</p>
+                <a href="">Veja Mais</a>
+            </div>
+            <div class="noticia">
+                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur officia quae, necessitatibus mollitia totam laboriosam saepe tempora similique animi a unde obcaecati vitae molestiae temporibus distinctio, nesciunt, doloremque ut hic!</p>
+                <a href="">Veja Mais</a>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div>
+            <div class="imagem-galeria">
+                <img width="280px" src="images/image1.png" alt="imagem1 galeria de fotos">
+                <p>Resumo</p>
+            </div>
+
+            <div class="imagem-galeria">
+                <img width="200px" src="images/image2.jfif" alt="imagem1 galeria de fotos">
+                <p>Resumo</p>
+            </div>
+
+            <div class="imagem-galeria">
+                <img width= "150px" src="images/image3.png" alt="imagem1 galeria de fotos">
+                <p>Resumo</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
