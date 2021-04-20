@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 41px;
+    background: url(../images/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+    background-position: right bottom;
+    color: white;
+}
+
+/* Marcações automáticas para uma barra de navegação */
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+    background-position: right bottom;
+    color: white;
+}
